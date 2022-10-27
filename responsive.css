@@ -1,0 +1,9 @@
+@media all and (max-width: 670px) {
+    span.menu-icon{
+        display: initial;
+    }
+    .navigasi{
+        position: absolute;
+        top: -700%;
+    }
+}
