@@ -1,0 +1,165 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: crimson;
+}
+
+/* header */
+.header {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+
+.logo {
+  color: white;
+  font-size: 40px;
+}
+
+span {
+  color: crimson;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.navigasi {
+  display: flex;
+  align-items: center;
+}
+
+.navigasi li {
+  padding: 15px;
+}
+
+.navigasi li a {
+  color: white;
+}
+.navigasi li a:hover {
+  color: crimson;
+}
+
+.btn {
+  color: white;
+  background-color: crimson;
+  padding: 10px;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: rgb(183, 38, 86);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+/* end header */
+
+
+/* main */
+.container-main{
+  background-image: url(/gambar/main2.jpg);
+  background-size: cover;
+  width: 100%;
+  min-height: 80vh;
+}
+/*main*/
+
+
+/*content*/
+.container-content{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0px;
+  background-color: crimson;
+}
+
+.judul-konten h2{
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  color: white;
+  padding-bottom: 5px;
+  background-color: black;
+}
+
+.container-content .images .image-box{
+  position: relative;
+  height: 300px;
+  width: 220px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.images{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.images .image-box{
+  margin: 8px;
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+.images .image-box img{
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  transition: ease-out 0.2s linear;
+}
+
+.image-box:hover{
+  transform: scale(1.05);
+}
+
+.image-box h6{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  background-color: crimson;
+  border-radius: 5px;
+  padding: 5px;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+/* end content */
+
+
+/* footer */
+footer {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  background-color: black;
+}
+
+.footer {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+/* end footer */
