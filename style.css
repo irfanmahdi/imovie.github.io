@@ -73,10 +73,13 @@ span {
 
 /* main */
 .container-main{
-  background-image: url('/gambar/main2.jpg');
-  background-size: cover;
   width: 100%;
-  min-height: 80vh;
+  height: auto;
+}
+
+.main img{
+  height: auto;
+  width: 100%;
 }
 /*main*/
 
