@@ -73,7 +73,7 @@ span {
 
 /* main */
 .container-main{
-  background-image: url(./gambar/main2.jpg);
+  background-image: url(/bioskop.jpg);
   background-size: cover;
   width: 100%;
   min-height: 80vh;
